@@ -60,6 +60,14 @@ Welcome to the **Skygeni Analytics Project** — your one-stop interactive Pytho
 ### 📍 1. How many Finance Lending and Blockchain clients does the organization have? — *Bar Chart*  
 **Dataset:** `industry_client_details.csv`  
 **Chart Type:** Vertical Bar Chart  
+**Code:** 
+
+![image](https://github.com/user-attachments/assets/4e42a541-23fb-4e77-ac44-b89397818908)
+
+![image](https://github.com/user-attachments/assets/f440847f-16c8-4de5-ac4c-27ac7779fe7c)
+
+
+
 **Insight:**  
 Shows the count of clients from **Finance Lending** and **Blockchain** industries.
 
@@ -75,8 +83,19 @@ Helps assess which sector has more client representation.
 ### 🔥 2. Which industry in the organization has the highest renewal rate? — *Heatmap*  
 **Dataset:** `subscription_information.csv` + `industry_client_details.csv` (merged via `client_id`)  
 **Chart Type:** Heatmap  
+**Code:** 
+
+![image](https://github.com/user-attachments/assets/cac7fb02-eacc-4a5f-b26c-50dd5bc9a057)
+
+
+![image](https://github.com/user-attachments/assets/20d60881-b113-4ea0-b114-02ef61d018b2)
+
+
 **Insight:**  
 Displays the **renewal rate** (percentage of subscriptions renewed) for each industry.
+
+![image](https://github.com/user-attachments/assets/8834d0cc-5069-472c-8ac1-045ee2eb0d88)
+
 
 #### ✅ Why a Heatmap?
 Great for **visualizing intensity or percentage-based data** across categories.
@@ -86,8 +105,19 @@ Excellent for pattern spotting across industries.
 ### 📉 3. What was the average inflation rate when subscriptions were renewed? — *Histogram*  
 **Dataset:** `subscription_information.csv` + `financial_information.csv` (joined by date)  
 **Chart Type:** Histogram  
+**Code:** 
+
+![image](https://github.com/user-attachments/assets/8c0c035f-acf1-4f35-9df7-01b2c982e1b8)
+
+![image](https://github.com/user-attachments/assets/801165ca-bc64-4d83-858c-ae74db4272c4)
+
+
 **Insight:**  
 Analyzes the **distribution of inflation rates** during periods when subscriptions were successfully renewed.
+
+
+![image](https://github.com/user-attachments/assets/e138b50b-0f3b-4a11-8db9-4b1229b6aff8)
+
 
 #### ✅ Why a Histogram?
 Ideal for showing **distribution** of a continuous variable (inflation rate).
@@ -96,9 +126,19 @@ Helps understand macroeconomic influence on renewals.
 
 ### 💰 4. What is the median amount paid each year for all payment methods? — *Bar & Line Combo Chart*  
 **Dataset:** `payment_information.csv`  
-**Chart Type:** Combo Chart (Bar for methods, Line for median amount)  
+**Chart Type:** Combo Chart (Bar for methods, Line for median amount) 
+**Code:**
+
+![image](https://github.com/user-attachments/assets/be8ea8da-fc59-4cbb-8f32-04d337775d4e)
+
+![image](https://github.com/user-attachments/assets/ef8a72f5-14a5-4b36-b069-b651ab2faf2a)
+
+
 **Insight:**  
 Shows **median annual payments** across different payment methods (e.g., Bank Transfer, Check).
+
+![image](https://github.com/user-attachments/assets/34d88a47-0c62-4714-b3d9-76e05f18b195)
+
 
 #### ✅ Why a Combo Chart?
 Combines both **categorical (payment method)** and **summary metric (median amount)**.
@@ -130,6 +170,9 @@ The final product is a **visually rich analytics dashboard** that brings togethe
  Highlighted heatmap cell for the Gaming industry.
  
  KDE overlay and vertical line to show average inflation rate.
+
+![image](https://github.com/user-attachments/assets/2e78de87-4d3b-4752-9785-3540397ec471)
+
 
 ### 🖥️ Built With
 
