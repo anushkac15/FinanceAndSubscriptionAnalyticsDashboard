@@ -63,6 +63,10 @@ Welcome to the **Skygeni Analytics Project** — your one-stop interactive Pytho
 **Insight:**  
 Shows the count of clients from **Finance Lending** and **Blockchain** industries.
 
+![image](https://github.com/user-attachments/assets/77bdc85d-d86b-4379-8b0d-78785c8066e9)
+
+
+
 #### ✅ Why a Bar Chart?
 Simple and effective for comparing category counts.
 Clear visual contrast between two industry types.
