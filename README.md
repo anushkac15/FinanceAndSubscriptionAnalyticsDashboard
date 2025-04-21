@@ -121,10 +121,11 @@ The final product is a **visually rich analytics dashboard** that brings togethe
 **Color-coded visuals**: Utilizes Seaborn’s `Set2` and `YlGnBu` palettes for aesthetic clarity.
 
 **Annotations & Highlights**:
-
-  Bar labels for easy comparison.
-  Highlighted heatmap cell for the Gaming industry (if applicable).
-  KDE overlay and vertical line to show average inflation rate.
+ Bar labels for easy comparison.
+ 
+ Highlighted heatmap cell for the Gaming industry.
+ 
+ KDE overlay and vertical line to show average inflation rate.
 
 ### 🖥️ Built With
 
