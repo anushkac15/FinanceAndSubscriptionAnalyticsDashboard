@@ -117,8 +117,11 @@ The final product is a **visually rich analytics dashboard** that brings togethe
 ### ⚙️ Dashboard Features
 
 **Grid layout (2x2)**: Clean organization using `matplotlib`'s `GridSpec`.
+
 **Color-coded visuals**: Utilizes Seaborn’s `Set2` and `YlGnBu` palettes for aesthetic clarity.
+
 **Annotations & Highlights**:
+
   Bar labels for easy comparison.
   Highlighted heatmap cell for the Gaming industry (if applicable).
   KDE overlay and vertical line to show average inflation rate.
@@ -126,8 +129,11 @@ The final product is a **visually rich analytics dashboard** that brings togethe
 ### 🖥️ Built With
 
 `Python`: Core logic and data processing.
+
 `pandas`: Data wrangling and pivot tables.
+
 `matplotlib` & `seaborn`: Charting and visual styling.
+
 `Jupyter Notebook`: Development and visualization integration.
 
 This dashboard serves as a powerful tool to derive insights from finance and subscription-related datasets. It offers a clear, structured layout that facilitates storytelling and informed decision-making—ideal for internal reviews, stakeholder presentations, or interactive app extensions.
