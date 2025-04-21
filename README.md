@@ -19,7 +19,6 @@ Welcome to the **Skygeni Analytics Project** — your one-stop interactive Pytho
 
 | Column Name | Description |
 |-------------|-------------|
-| `Unnamed: 0` | Auto-generated index column (can be safely dropped). |
 | `start_date` | Beginning of the financial quarter. |
 | `end_date` | End of the financial quarter. |
 | `inflation_rate` | Inflation rate (%) during that time period. |
@@ -123,7 +122,6 @@ The final product is a **visually rich analytics dashboard** that brings togethe
   Bar labels for easy comparison.
   Highlighted heatmap cell for the Gaming industry (if applicable).
   KDE overlay and vertical line to show average inflation rate.
-**Interactive-ready base**: While static, the layout and styling make it easily extendable to frameworks like Streamlit or Plotly Dash.
 
 ### 🖥️ Built With
 
