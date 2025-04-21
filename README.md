@@ -104,32 +104,36 @@ Useful for highlighting financial behavior by payment type over time.
 
 ## 📊 Interactive Dashboard Overview
 
-The final product is a **streamlined and insightful eDashboard** that brings together all key metrics and visualizations for quick and interactive exploration. It offers a consolidated view of client behavior, economic influence, financial performance, and subscription dynamics.
+The final product is a **visually rich analytics dashboard** that brings together financial, subscription, and client data in a cohesive layout using Python and Matplotlib/Seaborn. With a 2x2 grid layout, each chart is designed to surface key business insights clearly and efficiently.
 
 ### 🧩 What’s Included:
 
 | Visualization | Chart Type | Insight |
 |---------------|------------|---------|
-| **Client Distribution - Finance Lending vs Blockchain** | Bar Chart | Instantly compare how many clients come from Finance Lending vs Blockchain sectors. |
-| **Renewal Rates by Industry** | Heatmap | Visually identify which industries have higher customer loyalty through renewal behavior. |
-| **Inflation Rate During Renewals** | Histogram | Observe macroeconomic trends (like inflation) during times when clients renewed subscriptions. |
-| **Median Amount Paid per Year by Payment Method** | Line Plot | Analyze how different payment methods contribute to the overall revenue and detect yearly patterns. |
+| **Client Distribution - Finance Lending vs Blockchain** | Bar Chart | Compare client counts across Finance Lending and Blockchain sectors. |
+| **Renewal Rates by Industry** | Heatmap | Identify industries with high or low renewal tendencies. Highlights the "Gaming" industry (if present). |
+| **Inflation Rate During Renewals** | Histogram with KDE | Understand how inflation trends impact customer renewal periods. Includes an average line for clarity. |
+| **Median Amount Paid per Year by Payment Method** | Line Plot | Spot trends in median annual payments across various payment methods. |
 
 ### ⚙️ Dashboard Features
 
-**Interactive filters**: Slice by year, industry, or payment method.
-**Tooltips**: Hover over data points for exact values.
-**Color-coded visuals**: Easily identify high vs low performance segments.
-**Responsive layout**: Optimized for desktop and widescreen presentations.
+**Grid layout (2x2)**: Clean organization using `matplotlib`'s `GridSpec`.
+**Color-coded visuals**: Utilizes Seaborn’s `Set2` and `YlGnBu` palettes for aesthetic clarity.
+**Annotations & Highlights**:
+  Bar labels for easy comparison.
+  Highlighted heatmap cell for the Gaming industry (if applicable).
+  KDE overlay and vertical line to show average inflation rate.
+**Interactive-ready base**: While static, the layout and styling make it easily extendable to frameworks like Streamlit or Plotly Dash.
 
 ### 🖥️ Built With
 
-`Python`: Data wrangling with **pandas**, visualizations using **seaborn** and **matplotlib**.
-`Jupyter Notebook`: For exploratory development and prototyping.
-`Streamlit` or `Plotly Dash` (Optional): If made fully interactive as a web app.
+`Python`: Core logic and data processing.
+`pandas`: Data wrangling and pivot tables.
+`matplotlib` & `seaborn`: Charting and visual styling.
+`Jupyter Notebook`: Development and visualization integration.
 
-This dashboard synthesizes insights from multiple datasets, providing a unified view of financial, subscription, and industry-related metrics, enabling quick analysis and decision-making. The layout is designed for clarity and interactivity, empowering users to explore data across different segments and make informed choices.
-  
+This dashboard serves as a powerful tool to derive insights from finance and subscription-related datasets. It offers a clear, structured layout that facilitates storytelling and informed decision-making—ideal for internal reviews, stakeholder presentations, or interactive app extensions.
+
 ## 🚀 How to Run
 
 1. Clone this repo or download the `.ipynb` file.
