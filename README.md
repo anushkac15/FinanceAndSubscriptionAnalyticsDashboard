@@ -171,7 +171,7 @@ The final product is a **visually rich analytics dashboard** that brings togethe
  
  KDE overlay and vertical line to show average inflation rate.
 
-![image](https://github.com/user-attachments/assets/2e78de87-4d3b-4752-9785-3540397ec471)
+![image](https://github.com/user-attachments/assets/5b11c34b-6729-4c6c-a541-6d216fa70dd9)
 
 
 ### 🖥️ Built With
